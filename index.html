@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tablet_styles.css">
+    <link rel="stylesheet" href="mobile_styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<header class="header headerFlex">
+    <div class="container">
+        <div class="header__bgImage">
+            <img src="img/logo.png" class="header__logo" alt="logo">
+            <div class="dropdown">
+                <div class="menuButton"><i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="listDropdown dropdownContent">
+                    <img src="img/logo-color.png" class="header__logo-menu" alt="logo">
+                    <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+                    <ul>
+                        <a href="#">
+                            <li>Главная</li>
+                        </a>
+                        <a href="#">
+                            <li>Описание</li>
+                        </a>
+                        <a href="#">
+                            <li>Преимущества</li>
+                        </a>
+                        <a href="#">
+                            <li>Отзывы</li>
+                        </a>
+                        <a href="#">
+                            <li>Партнеры</li>
+                        </a>
+                        <a href="#">
+                            <li>Гарантии</li>
+                        </a>
+                        <a href="#">
+                            <li>FAQ</li>
+                        </a>
+                    </ul>
+                    <p>ОСТАЛИСЬ ВОПРОСЫ?</p>
+                    <div class="listDropdown__confirm">
+                        <input class="listDropdown__confirm-tel" type="tel" id="phone" name="phone" placeholder="Ваш телефон"
+                               pattern="+7-[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+                        <a href="#">
+                            <div class="listDropdown__confirmButton-mobile">заказать звонок</div>
+                        </a>
+                        <p><input class="listDropdown__confirm-checkbox" id="checkbox-id" type="checkbox"/>
+                            <label for="checkbox-id" class="listDropdown__confirm-label">Я согласен на обработку персональных данных</label></p>
+                    </div>
+                    <div class="listDropdown__imgs">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-vk"></i>
+                    </div>
+            </div>
+            </div>
+            <div class="header__menu">
+                <ul>
+                    <a href="#">
+                        <li>Главная</li>
+                    </a>
+                    <a href="#">
+                        <li>Описание</li>
+                    </a>
+                    <a href="#">
+                        <li>Преимущества</li>
+                    </a>
+                    <a href="#">
+                        <li>Отзывы</li>
+                    </a>
+                    <a href="#">
+                        <li>Партнеры</li>
+                    </a>
+                    <a href="#">
+                        <li>Гарантии</li>
+                    </a>
+                    <a href="#">
+                        <li>FAQ</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="header__title">
+                <h1>ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h1>
+                <h2>А посылка доедет сама</h2>
+            </div>
+            <a href="#">
+                <div class="header__button sendButton">отправить посылку</div>
+            </a>
+        </div>
+
+        <div class="header__title-mobile">
+            <h1>ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h1>
+            <h2>А посылка доедет сама</h2>
+            <a href="#">
+                <div class="header__button-mobile sendButton">отправить посылку</div>
+            </a>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <section class="InformationBlock InformationBlock__Flex">
+        <p class="informationBlock__text-titleTablet">
+            Мы – агрегатор служб доставки
+        </p>
+        <div class="InformationBlockFlex">
+            <div class="InformationBlock__image-mobile">
+                <img src="img/shipping.png" alt="shipping">
+            </div>
+            <div class="informationBlock__text">
+                <p class="informationBlock__text-titleDesktop">
+                    Мы – агрегатор служб доставки
+                </p>
+                <p class="informationBlock__text-description">
+                    С нами удобно вам, вашим клиентам и курьерским службам. Для вас наши услуги бесплатны, так как мы
+                    получаем бонусы от служб доставок за предоставленный объем заказов, а вы получаете надежный сервис в
+                    подарок!
+                </p>
+                <a href="#">
+                    <div class="informationBlock__button sendButton">отправить посылку</div>
+                </a>
+            </div>
+            <div class="InformationBlock__image">
+                <img src="img/shipping.png" alt="shipping">
+            </div>
+        </div>
+    </section>
+
+    <section class="shippingSteps shippingStepsFlex">
+        <div class="shippingSteps__step">
+            <div class="shippingSteps__step-img">
+                <img src="img/step1.png" alt="step1">
+            </div>
+            <div class="shippingSteps__step-text">
+                <h3>Шаг 1</h3>
+                <p>Придумайте что и кому отправить</p>
+            </div>
+        </div>
+        <div class="shippingSteps__step">
+            <div class="shippingSteps__step-img">
+                <img src="img/step2.png" alt="step2">
+            </div>
+            <div class="shippingSteps__step-text">
+                <h3>Шаг 2</h3>
+                <p>Создайте заявку на сайте SendIt - Ваш персональный менеджер позвонит и подтвердит запрос, уточнит все
+                    необходимые данные</p>
+            </div>
+        </div>
+        <div class="shippingSteps__step">
+            <div class="shippingSteps__step-img">
+                <img src="img/step3.png" alt="step3">
+            </div>
+            <div class="shippingSteps__step-text">
+                <h3>Шаг 3</h3>
+                <p> К Вам приезжает курьер, забирает посылку, Вы подписываете один документ</p>
+            </div>
+        </div>
+        <div class="shippingSteps__step">
+            <div class="shippingSteps__step-img">
+                <img src="img/step4.png" alt="step4">
+            </div>
+            <div class="shippingSteps__step-text">
+                <h3>Шаг 4</h3>
+                <p>Вы ждёте подтверждения доставки, слова радости и благодарности от адресата :)</p>
+            </div>
+        </div>
+    </section>
+    <aside class="infoAd infoAdFlex">
+        <h2>Мы берём все заботы по доставке на себя!</h2>
+        <a href="#">
+            <div class="sendButton infoAd__button">отправить посылку</div>
+        </a>
+    </aside>
+    <article class="callBack callBackFlex">
+        <div class="callBack__text">
+            <h1>хотите мы вам перезвоним?</h1>
+            <p>Закажите звонок, и менеджер вам всё расскажет и объяснит</p>
+        </div>
+        <div class="callBack__confirm">
+            <input class="callBack__confirm-tel" type="tel" id="phone2" name="phone" placeholder="Ваш телефон"
+                   pattern="+7-[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <a href="#">
+                <div class="sendButton-yellow">отправить посылку</div>
+            </a>
+            <input class="callBack__confirm-checkbox" id="checkbox2-id" type="checkbox"/>
+            <label for="checkbox2-id" class="callBack__confirm-label">Я согласен на обработку персональных
+                данных</label>
+        </div>
+    </article>
+    <section class="reviews">
+        <h2>ОТЗЫВЫ</h2>
+        <div class="reviews__review reviews__reviewFlex">
+            <i class="rectangleLeft fa fa-angle-left fa-5x"></i>
+            <div class="reviews__reviewBlock reviews__reviewBlockFlex">
+                <div>
+                    <img class="reviews__reviewImg" src="img/review1.jpg" alt="review1">
+                </div>
+                <div class="reviews__reviewInfo">
+                    <p class="reviews__reviewTitle">Дарья</p>
+                    <p class="reviews__reviewText">La Intuicion</p>
+                    <p><span>Посылка: товары</span></p>
+                    <p><span>Откуда: Москва</span></p>
+                    <p><span>Куда: Нижневартовск</span></p>
+                </div>
+                <div class="reviews__reviewDesc">
+                    Отличный и качественный сервис. Долго искали курьерскую службу для доставки наших товаров. Решили
+                    попробовать и были приятно удивлены, что помимо удобного сайта, компания предоставляет доступ в
+                    личный кабинет, где реализованы многие наши потребности (ведение адресной базы, выбор и вызов
+                    курьера в пару кликов).
+                </div>
+            </div>
+            <div class="reviews__reviewBlock reviews__reviewBlockFlex reviews__reviewBlock-mobile">
+                <div>
+                    <img class="reviews__reviewImg" src="img/review2.jpg" alt="review2">
+                </div>
+                <div class="reviews__reviewInfo">
+                    <p class="reviews__reviewTitle">Елена</p>
+                    <p class="reviews__reviewText">Global Logic</p>
+                    <p><span>Посылка: товары</span></p>
+                    <p><span>Откуда: Москва</span></p>
+                    <p><span>Куда: Калининград</span></p>
+                </div>
+                <div class="reviews__reviewDesc">
+                    Мне нравится работать с SendIt, потому что это удобно: моментальный расчет стоимости доставки,
+                    удобный сайт, выборка среди основных надёжных логистических компаний и самый значимый фактор – всё
+                    это можно оперативно организовать и не волноваться. И ещё хочу сказать отдельное спасибо менеджеру
+                    за отзывчивость.
+                </div>
+            </div>
+            <i class="rectangleRight fa fa-angle-right fa-5x"></i>
+        </div>
+    </section>
+    <aside class="advantage">
+        <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+        <div class="advantageFlex">
+            <div class="advantageFlex__blockFlex">
+                <img src="img/car.png" alt="car">
+                <p>Бесплатный сервис</p>
+            </div>
+            <div class="advantageFlex__blockFlex">
+                <img src="img/shippin.png" alt="car">
+                <p>Огромный выбор вариантов доставки</p>
+            </div>
+            <div class="advantageFlex__blockFlex">
+                <img src="img/star.png" alt="car">
+                <p> 4 параметра лучшего предложения</p>
+            </div>
+            <div class="advantageFlex__blockFlex">
+                <img src="img/hand.png" alt="car">
+                <p>Удобство заказа</p>
+            </div>
+            <div class="advantageFlex__blockFlex">
+                <img src="img/support.png" alt="car">
+                <p>Online-поддержка</p>
+            </div>
+            <div class="advantageFlex__blockFlex">
+                <img src="img/track.png" alt="car">
+                <p>Единый номер отслеживания</p>
+            </div>
+        </div>
+    </aside>
+    <figure class="warranty">
+        <h2>НАШИ ГАРАНТИИ</h2>
+        <div class="warrantyFlex">
+            <i class="warrantyFlex__rectangleLeft fa fa-angle-left fa-2x"></i>
+            <div class="warrantyFlex__blockFlex">
+                <img src="img/box.png" alt="box">
+                <h3>Страховка отправлений</h3>
+                <p>Контроль работы курьеров в онлайн режиме. Страхование по запросу клиента Каждый куръер находится под
+                    пристальным вниманием менеджеров SendIt</p>
+                <div class="warrantyFlex__button sendButton">подробнее</div>
+            </div>
+            <i class="warrantyFlex__rectangleRight fa fa-angle-right fa-2x"></i>
+            <div class="warrantyFlex__blockFlex warrantyFlex__blockFlex-mobile">
+                <img src="img/view.png" alt="view">
+                <h3>Прозрачность расчетов</h3>
+                <p>Чтобы узнать точную стоимость отправления вам не нужно связываться с каждой курьерской службой в
+                    отдельности и сравнивать полученные предложения, просто воспользуйтесь нашим сервисом </p>
+                <div class="warrantyFlex__button sendButton">подробнее</div>
+            </div>
+            <div class="warrantyFlex__blockFlex warrantyFlex__blockFlex-mobile">
+                <img src="img/pass.png" alt="pass">
+                <h3>Лучшие поставщики</h3>
+                <p>Мы работаем с самыми надежными и известными операторами доставки. Проверка надежности курьерской
+                    компании, экспертная оценка качества предоставляемых услуг</p>
+                <div class="warrantyFlex__button sendButton">подробнее</div>
+            </div>
+        </div>
+    </figure>
+    <section class="faq">
+        <h2>ОСТАЛИСЬ СОМНЕНИЯ?</h2>
+        <div class="faqFlex">
+            <div class="faqFlex__column">
+                <div class="faqFlex__column-one">
+                    <details>
+                        <summary>
+                            <div class="faq__partText">На бумажную волокиту уйдёт много времени, а мне нужно
+                                доставить срочно!
+                            </div>
+                            <div class="faq__partAngle">
+                                <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+                            </div>
+                        </summary>
+                        <br>
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется
+                            на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </details>
+                </div>
+                <div class="faqFlex__column-two">
+                    <details>
+                        <summary>
+                            <div class="faq__partText">Мне необходимо совершить доставку по нескольким адресам,
+                                нужно много чего заполнять
+                            </div>
+                            <div class="faq__partAngle">
+                                <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+                            </div>
+                        </summary>
+                        <br>
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется
+                            на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </details>
+                </div>
+                <div class="faqFlex__column-three">
+                    <details>
+                        <summary>
+                            <div class="faq__partText">Вы не сможете доставить посылку за границу
+                            </div>
+                            <div class="faq__partAngle">
+                                <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+                            </div>
+                        </summary>
+                        <br>
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется
+                            на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </details>
+                </div>
+            </div>
+            <div class="faqFlex__column">
+                <div class="faqFlex__column-one">
+                    <details>
+                        <summary>
+                            <div class="faq__partText">Вы не занимаетесь такими простыми грузами, как мебель
+                            </div>
+                            <div class="faq__partAngle">
+                                <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+                            </div>
+                        </summary>
+                        <br>
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется
+                            на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </details>
+                </div>
+                <div class="faqFlex__column-two">
+                    <details>
+                        <summary>
+                            <div class="faq__partText">Я отправляю вместе с коллегами, мы можем легко запутаться где чьё
+                            </div>
+                            <div class="faq__partAngle">
+                                <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+                            </div>
+                        </summary>
+                        <br>
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется
+                            на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </details>
+                </div>
+                <div class="faqFlex__column-three">
+                    <details>
+                        <summary>
+                            <div class="faq__partText">Нужно заполнять кучу документов
+                            </div>
+                            <div class="faq__partAngle">
+                                <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+                            </div>
+                        </summary>
+                        <br>
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется
+                            на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside class="partners partnersFlex">
+        <i class="rectangleLeft__desktop fa fa-angle-left fa-2x"></i>
+        <i class="rectangleLeft__mobile fa fa-angle-left fa-5x"></i>
+        <div class="partnersFlex__mobile">
+            <img src="img/bringo.png" alt="bringo">
+            <img src="img/cdek.png" alt="cdek">
+            <img src="img/city_express.png" alt="city_express">
+            <img src="img/dpd.png" alt="dpd">
+            <img src="img/pony.png" alt="pony">
+            <img src="img/spsr.png" alt="spsr">
+            <img src="img/tnt.png" alt="tnt">
+            <img src="img/ups.png" alt="ups">
+        </div>
+        <i class="rectangleRight__mobile fa fa-angle-right fa-5x"></i>
+        <i class="rectangleRight__desktop fa fa-angle-right fa-2x"></i>
+    </aside>
+</div>
+<footer class="footer footerFlex container">
+    <h3>ОСТАЛИСЬ ВОПРОСЫ?</h3>
+    <div class="footer__confirm">
+        <input class="footer__confirm-tel" type="tel" id="phone" name="phone" placeholder="Ваш телефон"
+               pattern="+7-[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+        <a href="#">
+            <div class="footer__confirmButton-mobile">заказать звонок</div>
+        </a>
+        <p><input class="footer__confirm-checkbox" id="checkbox5-id" type="checkbox"/>
+            <label for="checkbox5-id" class="footer__confirm-label">Я согласен на обработку персональных
+                данных</label></p>
+    </div>
+    <a href="#">
+        <div class="sendButton footer__confirmButton">заказать звонок</div>
+    </a>
+    <div class="separator separator-mobile"></div>
+    <div class="footer__flexColumn">
+        <img src="img/logo-color.png" alt="logo-color">
+        <div class="footer__menu">
+            <ul>
+                <li>Главная</li>
+                <li>Описание</li>
+                <li>Преимущества</li>
+                <li>Отзывы</li>
+                <li>Партнёры</li>
+                <li>Гарантии</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="footer__flexColumn-flexStart">
+        <div class="footer__copipast">© Сами копипастим и вам разрешаем</div>
+        <div class="footer__year">2020</div>
+        <div class="footer__imgs">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-vk"></i>
+        </div>
+        <div class="footer__designed">Задизайнено мной</div>
+    </div>
+</footer>
+</body>
+</html>
